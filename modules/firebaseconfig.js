@@ -6,7 +6,7 @@ import { getDatabase, ref } from "https://www.gstatic.com/firebasejs/12.8.0/fire
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyAHxeSDHHIylYnttL4j16sX1CQdrBiYP9Y",
+    apiKey: "AIzaSyDP4L_71_d7RbZ5CnXX7J08zdxQJhTdUEc",
     authDomain: "devrica-fe25.firebaseapp.com",
     databaseURL: "https://devrica-fe25-default-rtdb.europe-west1.firebasedatabase.app/",
     projectId: "devrica-fe25",
@@ -21,4 +21,5 @@ export const db = getDatabase(app);
 export const gamesRef = ref(db, '/games');
 
 // https://firebase.google.com/docs/database/web/read-and-write#web
+
 // https://console.firebase.google.com/project/devrica-fe25/database/devrica-fe25-default-rtdb/data/~2F
