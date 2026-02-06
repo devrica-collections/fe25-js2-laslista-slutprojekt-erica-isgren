@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="module" src="./main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="Title" id="title" required>
+        <input type="text" name="Developer" id="developer" required>
+        <input type="checkbox" name="Favorite" id="favorite" value="Favorite">
+        <label for="favorite">Favorite?</label>
+        <button type="submit">Add Game</button>
+    </form>
+    <label for="sort-label">Sort</label>
+    <select name="sort" id="sort">
+        <option value="date-latest">Latest</option>
+        <option value="date-oldest">Oldest</option>
+        <option value="title-descending">A-Ö</option>
+        <option value="title-ascending">Ö-A</option>
+    </select>
+    <label>Filtrera:</label>
+    <input type="checkbox" name="filter-favorites" id="filter-favorites" value="filter-favorites">
+    <label for="filter-favorites">Show favorite</label>
+    <ul id="games-list">
+    </ul>
+</body>
+</html>
